@@ -1,0 +1,85 @@
+package com.web.mes021.a02_board;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.SelectKey;
+import org.apache.ibatis.annotations.Update;
+
+import com.web.mes021.z01_vo.Board;
+import com.web.mes021.z01_vo.BoardFile;
+import com.web.mes021.z01_vo.BoardSch;
+import com.web.mes021.z01_vo.FileExp1;
+
+
+@Mapper
+public interface A03_BoardDao {
+
+	@Select("SELECT count(*)\r\n"
+			+ "	FROM board b\r\n"
+			+ "	WHERE subject LIKE #{subject}\r\n"
+			+ "	AND writer LIKE #{writer}\r\n"
+			+ "	START WITH refno = 0		 	\r\n"
+			+ "	CONNECT BY PRIOR NO = refno")
+	int getBoardCount(BoardSch sch);
+	
+	@Select("SELECT * from(\r\n"
+			+ "	SELECT rownum cnt, LEVEL, b.* \r\n"
+			+ "	FROM board b\r\n"
+			+ "	WHERE subject LIKE #{subject}\r\n"
+			+ "	AND writer LIKE #{writer}\r\n"
+			+ "	START WITH refno = 0		 	\r\n"
+			+ "	CONNECT BY PRIOR NO = refno \r\n"
+			+ "	ORDER siblings BY  NO desc\r\n"
+			+ ") \r\n"
+			+ "WHERE cnt BETWEEN #{start} AND #{end} ")
+	List<Board> getBoardList(BoardSch sch);
+	
+	@Insert("INSERT INTO board values(#{no}, #{refno}, #{subject},#{content},\r\n"
+			+ "						#{writer},0, sysdate, sysdate)")
+	@SelectKey(statement="SELECT board_seq.nextval  FROM dual", 
+		keyProperty = "no", before=true, resultType=int.class)
+	int insertBoard(Board ins);
+
+	@Insert("INSERT INTO boardfile values(#{no}, "
+			+ "#{fname},#{etc},sysdate, sysdate)")
+	int insertBoardFile(BoardFile ins);	
+	
+	@Select("SELECT * FROM board WHERE NO = #{no}")
+	Board getBoard(@Param("no") int no);
+	
+	@Select("SELECT fname FROM boardfile WHERE NO = #{no}")
+	List<String> getBoardFile(@Param("no") int no);	
+
+
+	@Update("UPDATE board\r\n"
+			+ "	SET readcnt = readcnt+1\r\n"
+			+ "WHERE NO = #{no}")
+	int readCntUpdate(@Param("no") int no);
+
+   	@Update("UPDATE board\r\n"
+   			+ "   SET subject = #{subject},\r\n"
+   			+ "   	   content = #{content},\r\n"
+   			+ "   	   writer = #{writer},\r\n"
+   			+ "   	   uptdte = sysdate\r\n"
+   			+ "   	 WHERE NO = #{no}")
+   	int updateBoard(Board upt);
+ 
+	@Delete("DELETE FROM board\r\n"
+			+ "    WHERE NO = #{no} ")
+	int deleteBoard(@Param("no") int no);   	
+	
+	@Insert("INSERT INTO boardfile values(file_seq.nextval, "
+			+ "#{fname},#{etc},sysdate, sysdate)")
+	int insertFile(BoardFile file);
+	
+	@Select("SELECT * FROM boardfile ORDER BY no desc")
+	List<BoardFile> getFiles();
+
+
+	
+}
