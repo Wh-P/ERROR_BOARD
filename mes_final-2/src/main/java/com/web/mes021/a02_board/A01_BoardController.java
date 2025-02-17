@@ -24,7 +24,7 @@ public class A01_BoardController {
 	public String redirectToBoardList() {
 		return "redirect:/boardList";
 	}
-	
+	 // 도메인만 입력시, 자동으로 /boardList 에 리 다이렉트 할수 있게 구현.
 	
 	// http://localhost:3030/boardList
 	@RequestMapping("/boardList")
