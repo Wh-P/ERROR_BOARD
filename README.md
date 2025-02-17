@@ -4,7 +4,11 @@
 - 배포 URL : http://equipreport.work:8080/ 
 
 ## 시연 영상
-https://www.youtube.com/watch?v=TksVHQmNdAo
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/TksVHQmNdAo" 
+    frameborder="0" allowfullscreen>
+</iframe>
+
 
 <br>
 
