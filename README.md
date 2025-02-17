@@ -1,3 +1,22 @@
+
+![main](https://github.com/user-attachments/assets/04f9c152-c9a3-446e-bcf8-196be0ca3cfa)
+
+- 배포 URL : http://equipreport.work:8080/ 
+
+## 시연 영상
+[![Video Label](http://img.youtube.com/vi/xgAnnWNySts/0.jpg)](https://youtu.be/xgAnnWNySts)
+
+<br>
+
+## 프로젝트 소개
+
+- 꼬순내는 펫팸족과 전문 반려동물 미용사를 연결하는 플랫폼입니다. 
+- 내 반려동물 등록 후 원하는 날짜, 스타일을 예약할수있습니다.
+- 검색을 통해 근처 펫미용샵을 알아보고 후기등을 참고 할수있습니다.
+- 문의하기, 리뷰관리, 펫정보 등을 수정할수있습니다.
+
+<br>
+
 <div align= "left">
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🛠️ Tech Stacks </h2> <br> 
@@ -18,28 +37,8 @@
     <div style="text-align: left;">  </div> 
     </div>
 </div>
+</div>
 
-
- 
-
-![꼬순내 우리댕냥이들의 미모비결 (1)](https://github.com/super-coding-3/kkosoonnae/assets/101633842/4b8d5551-bde5-4bf5-820c-3128ff868519)
-
-
-- 배포 URL : http://equipreport.work:8080/ 
-
-## 시연 영상
-[![Video Label](http://img.youtube.com/vi/xgAnnWNySts/0.jpg)](https://youtu.be/xgAnnWNySts)
-
-<br>
-
-## 프로젝트 소개
-
-- 꼬순내는 펫팸족과 전문 반려동물 미용사를 연결하는 플랫폼입니다. 
-- 내 반려동물 등록 후 원하는 날짜, 스타일을 예약할수있습니다.
-- 검색을 통해 근처 펫미용샵을 알아보고 후기등을 참고 할수있습니다.
-- 문의하기, 리뷰관리, 펫정보 등을 수정할수있습니다.
-
-<br>
 
 ## 팀원 구성
 
