@@ -1,4 +1,4 @@
-<div align= "center">
+<div align= "left">
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white">
@@ -20,12 +20,12 @@
     
 
 
-# 🐶🐱 반려동물의 미용샵 플랫폼서비스 
+ 
 
 ![꼬순내 우리댕냥이들의 미모비결 (1)](https://github.com/super-coding-3/kkosoonnae/assets/101633842/4b8d5551-bde5-4bf5-820c-3128ff868519)
 
 
-- 배포 URL : [https://www.kkosoonnae.store/](https://www.kkosoonnae.store/) (비용 문제로 인한 서버 종료)
+- 배포 URL : http://equipreport.work:8080/ 
 
 ## 시연 영상
 [![Video Label](http://img.youtube.com/vi/xgAnnWNySts/0.jpg)](https://youtu.be/xgAnnWNySts)
