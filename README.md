@@ -37,7 +37,7 @@
 - 버전 및 이슈관리 : Github, SVN
 <br>
 
-## 2. 채택한 개발 기술과 브랜치 전략
+## 2. 채택한 개발 기술
 
 <div align= "left">
     <div style="text-align: left;">
