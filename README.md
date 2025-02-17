@@ -1,19 +1,16 @@
-
+## 설비 고장신고 게시판
 ![main](https://github.com/user-attachments/assets/04f9c152-c9a3-446e-bcf8-196be0ca3cfa)
 
 - 배포 URL : http://equipreport.work:8080/ 
 
 ## 시연 영상
-[![Video Label](http://img.youtube.com/vi/xgAnnWNySts/0.jpg)](https://youtu.be/xgAnnWNySts)
+
 
 <br>
 
 ## 프로젝트 소개
 
-- 꼬순내는 펫팸족과 전문 반려동물 미용사를 연결하는 플랫폼입니다. 
-- 내 반려동물 등록 후 원하는 날짜, 스타일을 예약할수있습니다.
-- 검색을 통해 근처 펫미용샵을 알아보고 후기등을 참고 할수있습니다.
-- 문의하기, 리뷰관리, 펫정보 등을 수정할수있습니다.
+- mes 시스템의 설비 공정에서 고장이 났을시 신고할 수 있는 게시판과, 실시간으로 채팅 할 수 있는 기능을 추가해 긴급한 경우에 채팅을 할 수 있게 하였습니다.
 
 <br>
 
