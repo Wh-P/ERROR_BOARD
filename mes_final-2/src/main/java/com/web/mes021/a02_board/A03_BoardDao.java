@@ -39,7 +39,7 @@ public interface A03_BoardDao {
 			+ "WHERE cnt BETWEEN #{start} AND #{end} ")
 	List<Board> getBoardList(BoardSch sch);
 	
-	@Insert("INSERT INTO board values(#{no}, #{refno}, #{subject},#{content},\r\n"
+	@Insert("INSERT INTO board values(#{no},#{refno},#{eqnum},#{subject},#{content},\r\n"
 			+ "						#{writer},0, sysdate, sysdate)")
 	@SelectKey(statement="SELECT board_seq.nextval  FROM dual", 
 		keyProperty = "no", before=true, resultType=int.class)
@@ -62,7 +62,8 @@ public interface A03_BoardDao {
 	int readCntUpdate(@Param("no") int no);
 
    	@Update("UPDATE board\r\n"
-   			+ "   SET subject = #{subject},\r\n"
+   			+ "   SET   eqnum = #{equnm},\r\n"
+   			+ "        subject = #{subject},\r\n"
    			+ "   	   content = #{content},\r\n"
    			+ "   	   writer = #{writer},\r\n"
    			+ "   	   uptdte = sysdate\r\n"

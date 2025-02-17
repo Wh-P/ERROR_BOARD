@@ -12,8 +12,8 @@
  --%>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0",maximum-scale=1.0, user-scalable=no">
+<title>설비 고장신고 게시판</title>
 <link rel="stylesheet" href="${path}/a00_com/bootstrap.min.css" >
 <link rel="stylesheet" href="${path}/a00_com/jquery-ui.css" >
 <style>
@@ -58,7 +58,8 @@
 
 <body>
 <div class="jumbotron text-center">
-  <h2>설비 고장/신고 게시판</h2>
+  <h1>설비 고장신고 게시판</h1>
+  <h7>설비에 문제가 있을 시 아래 게시판에 남겨주세요.</h7>
 </div>
 <div class="container">
 
@@ -107,10 +108,12 @@
     	<c:forEach var="bd" items="${boardList}">
     	<tr ondblclick="goDetail(${bd.no})"><td>${bd.cnt}</td>
     		<td style="text-align:left;">
-    		<c:forEach begin="2" end="${bd.level}" varStatus="sts">
-    			&nbsp;&nbsp;&nbsp;
-    			<c:if test="${sts.last}">☞</c:if>
-    		</c:forEach>
+    		<c:if test="${bd.level >= 2}">
+    			<c:forEach begin="2" end="${bd.level}" varStatus="sts">
+        		&nbsp;&nbsp;&nbsp;
+        	<c:if test="${sts.last}">☞</c:if>
+    			</c:forEach>
+			</c:if>
     		${bd.subject}</td><td>${bd.writer}</td>
     		<td><fmt:formatDate value="${bd.regdte}"/></td><td>${bd.readcnt}</td></tr>
     	</c:forEach>
@@ -123,7 +126,7 @@
       <button type="button" class="btn btn-primary">
 		  총 <span class="badge badge-light">${sch.count}</span> 건
 	   </button>
-	   <button class="btn btn-danger" id="regBtn" type="button" onclick="chat()" >관리자와의 채팅</button>
+	   <button class="btn btn-danger" id="regBtn" type="button" onclick="chat()" >1:1 관리자 채팅</button>
     </div>
     <div class="col-sm-4">
     	
@@ -131,7 +134,7 @@
     <div class="col-sm-5" >
 		<ul class="pagination justify-content-end" >
 		  <li class="page-item"><a class="page-link" href="javascript:goPage(${sch.startBlock-1})">Previous</a></li>	  
-		  <c:forEach var="pcnt" begin="${sch.startBlock}" end="${sch.endBlock}">
+		  <c:forEach var="pcnt" begin="${sch.startBlock < 0 ? 0 : sch.startBlock}" end="${sch.endBlock}">
 		  	<li class="page-item ${sch.curPage==pcnt?'active':''}">
 		  		<a class="page-link" href="javascript:goPage(${pcnt})">${pcnt}</a></li>
 		  </c:forEach>

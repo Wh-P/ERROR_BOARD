@@ -20,6 +20,12 @@ public class A01_BoardController {
 	@Autowired(required=false)
 	private A02_BoardService service;
 	
+	@GetMapping("/")
+	public String redirectToBoardList() {
+		return "redirect:/boardList";
+	}
+	
+	
 	// http://localhost:3030/boardList
 	@RequestMapping("/boardList")
 	public String boardList(@ModelAttribute("sch") BoardSch sch, Model d) {

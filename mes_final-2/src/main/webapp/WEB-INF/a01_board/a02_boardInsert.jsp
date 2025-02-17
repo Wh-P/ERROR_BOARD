@@ -12,8 +12,8 @@
  --%>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>게시글 등록</title>
 <link rel="stylesheet" href="${path}/a00_com/bootstrap.min.css" >
 <link rel="stylesheet" href="${path}/a00_com/jquery-ui.css" >
 <style type="text/css">
@@ -62,6 +62,12 @@
 			<span class="input-group-text  justify-content-center">제목</span>
 		</div>
 		<input name="subject" class="form-control" value="${re.subject}" />
+	</div>	
+		<div class="input-group mb-3">	
+		<div class="input-group-prepend ">
+			<span class="input-group-text  justify-content-center">설비번호</span>
+		</div>
+		<input name="eqnum" class="form-control" value="${re.eqnum}" />
 	</div>	
 	<div class="input-group mb-3">	
 		<div class="input-group-prepend ">

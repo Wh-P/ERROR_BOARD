@@ -12,6 +12,8 @@ public class Board {
 	private int level;	
 	private int no;
 	private int refno;
+	private int eqnum;
+	
 	private String subject;
 	private String content;
 	private String writer;
@@ -26,19 +28,27 @@ public class Board {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Board(int no, int refno, String subject, String content, String writer, int readcnt, Date regdte,
-			Date uptdte) {
+	
+	
+	public Board(int cnt, int level, int no, int refno, int eqnum, String subject, String content, String writer,
+			int readcnt, Date regdte, Date uptdte, MultipartFile[] reports, List<String> flist) {
 		super();
+		this.cnt = cnt;
+		this.level = level;
 		this.no = no;
 		this.refno = refno;
+		this.eqnum = eqnum;
 		this.subject = subject;
 		this.content = content;
 		this.writer = writer;
 		this.readcnt = readcnt;
 		this.regdte = regdte;
 		this.uptdte = uptdte;
+		this.reports = reports;
+		this.flist = flist;
 	}
-	
+
+
 	public int getCnt() {
 		return cnt;
 	}
@@ -53,6 +63,12 @@ public class Board {
 	}
 	public int getNo() {
 		return no;
+	}
+	public int getEqnum() {
+		return eqnum;
+	}
+	public void setEqnum(int eqnum) {
+		this.eqnum = eqnum;
 	}
 	public void setNo(int no) {
 		this.no = no;
