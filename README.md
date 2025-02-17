@@ -37,6 +37,7 @@
 ## 1. 개발 환경
 - Tool :Spring Tool Suite 4 
 - 버전 및 이슈관리 : Github, SVN
+- 배포: cloudflare, vpn
 <br>
 
 ## 2. 채택한 개발 기술
