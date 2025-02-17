@@ -34,11 +34,7 @@
 
 ## 1. 개발 환경
 - Tool :Spring Tool Suite 4 
-- 버전 및 이슈관리 : Github, 
-- 협업 툴 : Discord, Notion,
-- 디자인 : [Figma](https://www.figma.com/design/blBt17GB6m2L5OEHCmAMtP/%EA%BC%AC%EC%88%9C%EB%82%B4-UI?node-id=41-357&t=f6FakeOd9r1YTGTv-1)
-- [커밋 컨벤션](https://www.notion.so/Code-Convention-5e58bf5f877846d0a2613e7d1421807b?pvs=4)
-- [네이밍 컨벤션](https://www.notion.so/5ef268be01b34e77994ee97095227ff3?pvs=4)
+- 버전 및 이슈관리 : Github, SVN
 <br>
 
 ## 2. 채택한 개발 기술과 브랜치 전략
