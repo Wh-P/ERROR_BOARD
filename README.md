@@ -4,7 +4,9 @@
 - 배포 URL : http://equipreport.work:8080/ 
 
 ## 시연 영상
-![시연 영상][(https://img.youtube.com/vi/TksVHQmNdAo/maxresdefault.jpg)](https://www.youtube.com/watch?v=TksVHQmNdAo)](https://www.youtube.com/watch?v=x70LQrh7-l0)
+[![시연 영상](https://img.youtube.com/vi/TksVHQmNdAo/maxresdefault.jpg)](https://www.youtube.com/watch?v=TksVHQmNdAo)
+
+🔗 **[시연 영상 링크](https://youtu.be/x70LQrh7-l0)**
 
 
 <br>
