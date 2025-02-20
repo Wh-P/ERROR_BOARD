@@ -132,8 +132,8 @@ Main 페이지 화면입니다
 ### ⓶ 상세 설명
 
 ##### A01_BoardList.jsp 페이지 에서 "등록" 버튼 클릭시, 해당 페이지로 이동합니다 
--해당 페이지는 `<form>` 태그로 api 에 데이터를 전송합니다
--다중 업로드 기능을 구현하기 위해  `<form>` 태그에 enctype=multipart/form-data 를 <br> `<input>` 태그에 multiple="multiple" 라는 속성을 적용하였습니다. 
+###### 해당 페이지는 `<form>` 태그로 api 에 데이터를 전송합니다.<br>
+####### 다중 업로드 기능을 구현하기 위해  `<form>` 태그에 enctype=multipart/form-data 를 <br> `<input>` 태그에 multiple="multiple" 라는 속성을 적용하였습니다. 
 
 ![BoardList_Main](https://github.com/user-attachments/assets/2a922328-eba7-4612-909e-2c37f753d0be)
 
