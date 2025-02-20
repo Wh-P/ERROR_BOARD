@@ -101,13 +101,15 @@ Main 페이지 화면입니다
 
 👉 검색기능
 
--제목,작성자를 입력시, `<form>` 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
+##### 제목,작성자를 입력시, `<form>` 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
 
 ![Main_search](https://github.com/user-attachments/assets/d7eac07c-83bc-4cb0-a726-eeb0404bf1d2)
 
--이러한 검색을 통해 해당 리스트를 받아 옵니다.
+##### 이러한 검색을 통해 해당 리스트를 받아 옵니다.
 
 ![Main_list](https://github.com/user-attachments/assets/03effd88-716b-4dba-af9a-eb5630ac3012)
+
+<br>
 
 👉 페이징 처리 기능
 
