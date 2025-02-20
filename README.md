@@ -146,6 +146,25 @@
 
 ![submit](https://github.com/user-attachments/assets/f4d7be19-25b1-4b24-82dc-92c96d6f213f)
 
+### 5-3 게시글 상세(A01_BoardDetail.jsp)
+
+#### ⓵ 상세화면
+
+![DetailBoard](https://github.com/user-attachments/assets/45d086aa-94fe-41c2-984f-67f0896585f5)
+
+### ⓶ 상세 설명
+
+👉 게시글 수정/삭제 기능 
+
+- 등록 후 A01_BoardList.jsp 파일로 돌아가서 다시 더블클릭을 하게 되면 "상세페이지" 로 들어가지게 됩니다.
+  
+![click_deatil](https://github.com/user-attachments/assets/6c7f531b-c094-442a-8415-197a1a35cf59)
+
+
+-해당 페이지 에서 각 창을 "클릭" 시 해당 정보를 수정할 수 있으며 작성이 끝나면 "수정"버튼을 통해 서버로 전달되어집니다.
+
+![update_detail](https://github.com/user-attachments/assets/0792a984-099b-4c0b-82ad-bb157e91ac7d)
+
 
 
 <br>
