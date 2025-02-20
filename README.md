@@ -176,6 +176,17 @@
 
   ![go_reply](https://github.com/user-attachments/assets/522123a7-7c30-4ecb-90b8-647bd3633b16)
 
+- 이후 다시한번 게시글에 대한 내용에 추가 내용을 덧붙인 뒤 "등록" 버튼을 클릭해 서버에 등록 해 줍니다.
+
+  ![reply_main](https://github.com/user-attachments/assets/23f0cce5-c30b-4c0e-bdb2-8bd330fbae8e)
+
+- 등록이 완료 되면 다시 A01_boardList 에서 확인이 가능 합니다. 다시한번 클릭 하여 해당 내용을 확인 합니다.
+  
+ ![relply_success_list](https://github.com/user-attachments/assets/e376b945-a376-4458-b7e1-4b6b0df293b0)
+
+- 정상적으로 답글이 등록 된 것을 확인 할  수 있습니다.
+
+![reply_main](https://github.com/user-attachments/assets/7c652529-bc9a-458a-a4e0-87aa6690fe2f)
 
 
 <br>
