@@ -188,8 +188,37 @@
 
 ![reply_success](https://github.com/user-attachments/assets/68f3b86e-39e0-4604-8441-ea051e8b51ce)
 
-
 <br>
+
+### 5-4 (A03_Chatting.jsp)
+
+#### ⓵ 상세화면
+
+![chatting_main](https://github.com/user-attachments/assets/30a4ed53-ff81-47ba-bd89-d95bb6602ab4)
+
+
+### ⓶ 상세 설명
+
+- A01_BoardList 에서 "1:1관리자 채팅" 을 클릭후 입장합니다.
+
+  ![go_chatting](https://github.com/user-attachments/assets/3af1d53d-2c44-4de0-9be9-d4998f8a881f)
+
+-  입장 시 사용할 이름을 입력하여 주시고, 입장을 눌러 줍니다.
+  
+  ![chatting_main(2)](https://github.com/user-attachments/assets/a8ef7a2d-2523-414b-a734-bd3173e41079)
+
+-  입장이 완료 되어지면 상대에게 알림창으로 알립니다.
+  
+  ![alert_chatting](https://github.com/user-attachments/assets/56c88734-a437-4691-afea-17d10a6e93e5)
+
+- 상대에게 입장이 되었다는 것을 채팅창에 한번더 표시 한뒤, 채팅을 입력 합니다.
+  
+![chatting_main(3)](https://github.com/user-attachments/assets/7a6b1684-1f4f-40fc-866c-5e1fbde5ef67)
+
+- 정상적으로 이름과 채팅내용이 화면표시는 것을 볼 수 있습니다.
+- 
+![chatting_main(4)](https://github.com/user-attachments/assets/67174c16-351a-4d4c-970a-09c0d4b8f756)
+
 
 ## 6.데이터설계
 
