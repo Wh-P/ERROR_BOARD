@@ -103,6 +103,10 @@ Main 페이지 화면입니다
 
 ![Main_search](https://github.com/user-attachments/assets/d7eac07c-83bc-4cb0-a726-eeb0404bf1d2)
 
+-이러한 검색을 통해 해당 리스트를 받아 옵니다.
+
+![Main_list](https://github.com/user-attachments/assets/03effd88-716b-4dba-af9a-eb5630ac3012)
+
 
 <br>
 
