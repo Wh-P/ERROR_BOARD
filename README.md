@@ -89,6 +89,15 @@
 
 ## 5.구현화면/상세코드
 
+### 5-1 메인화면(A01_BoardList.jsp)
+
+#### 상세화면
+
+![Main](https://github.com/user-attachments/assets/9b055c07-9f94-41af-b151-d82645f5f40c)
+
+Main 페이지 화면입니다 
+
+##### 상세 설명
 
 <br>
 
