@@ -99,7 +99,7 @@ Main 페이지 화면입니다
 
 ##### 상세 설명
 
--제목,작성자를 입력시, "<form>" 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
+-제목,작성자를 입력시, <form> 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
 
 ![Main_search](https://github.com/user-attachments/assets/d7eac07c-83bc-4cb0-a726-eeb0404bf1d2)
 
