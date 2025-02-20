@@ -1,19 +1,19 @@
 ## 설비 고장신고 게시판
 ![main](https://github.com/user-attachments/assets/04f9c152-c9a3-446e-bcf8-196be0ca3cfa)
 
-- 배포 URL : http://equipreport.work:8080/ 
+- ### 배포 URL : http://equipreport.work:8080/ 
 
 ## 시연 영상
 [![시연 영상](https://img.youtube.com/vi/TksVHQmNdAo/maxresdefault.jpg)](https://www.youtube.com/watch?v=TksVHQmNdAo)
 
-<h2>이미지 클릭 시 시청 가능합니다</h2>
+(이미지 클릭 시 시청 가능합니다)
 
 
 <br>
 
 ## 프로젝트 소개
 
-- ### MES 시스템의 설비 공정에서 고장이 났을시 신고할 수 있는 게시판과, 실시간 채팅 기능을 추가해 긴급한 경우에 채팅을 할 수 있게 하였습니다.
+- ### MES 시스템의 설비 공정에서 공정 기계가 고장이 났을 경우, 신고할 수 있는 게시판과 실시간 채팅 기능을 통해 고장을 빠르게 해결할 수 있는 게시판 입니다.
 
 <br>
 
@@ -28,6 +28,9 @@
   </tr>
   <tr>
     <td align="center"> 박우혁</td>
+  </tr>
+  <tr>
+    <td align="center"> 게시글등록/수정/삭제/검색 , 이미지업로드 , 실시간 양방향 채팅(WEBSOCKET) </td>
   </tr>
 </table>
 </div>
