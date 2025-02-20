@@ -165,6 +165,9 @@
 
 ![update_detail](https://github.com/user-attachments/assets/0792a984-099b-4c0b-82ad-bb157e91ac7d)
 
+- 삭제 기능 또한 마찬가지로, "삭제" 버튼 클릭시 해당되는 게시글의 번호를 찾아 해당 내용을 삭제 합니다.
+
+![Delete_detail](https://github.com/user-attachments/assets/066b44a8-9053-4c9d-bfe5-0f57b89dbbbc)
 
 
 <br>
