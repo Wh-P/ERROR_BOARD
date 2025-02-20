@@ -113,7 +113,8 @@ Main 페이지 화면입니다
 
 ##### 한번에, 여러 데이터를 보여주기 어렵기 때문에, 보여줄 데이터의 갯수 를 설정하고, 페이징 처리를 통해 데이터를 여러번 나뉘어 보여 줍니다.
 
-![Main_paging](https://github.com/user-attachments/assets/4158c484-1fa0-4367-a79a-84096ad540f3)
+![Main_paging](https://github.com/user-attachments/assets/dc3f52b0-5555-4359-8034-2a59b69620dc)
+
 
 
 <br>
