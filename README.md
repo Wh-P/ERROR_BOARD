@@ -40,7 +40,7 @@
 ## 1. 개발 환경
 - Tool :Spring Tool Suite 4 
 - 버전 및 이슈관리 : Github, SVN
-- 배포: cloudflare, vpn
+- 배포: Cloudflare, Vpn
 <br>
 
 ## 2. 채택한 개발 기술
@@ -55,7 +55,7 @@
           <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
           <br/><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
           <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">
-         <h5>+JSP</h5>
+         <h2>+JSP</h2>
     </div>
 </div>
 </div>
