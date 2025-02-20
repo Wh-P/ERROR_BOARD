@@ -216,11 +216,14 @@
 ![chatting_main(3)](https://github.com/user-attachments/assets/7a6b1684-1f4f-40fc-866c-5e1fbde5ef67)
 
 - 정상적으로 이름과 채팅내용이 화면표시는 것을 볼 수 있습니다.
-- 
+
 ![chatting_main(4)](https://github.com/user-attachments/assets/67174c16-351a-4d4c-970a-09c0d4b8f756)
 
+<br>
 
 ## 6.데이터설계
+
+![erd](https://github.com/user-attachments/assets/196593a5-46c9-4cf2-84d8-728353b1f24d)
 
 
 <br>
