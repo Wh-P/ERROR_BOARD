@@ -97,17 +97,17 @@
 
 ![Main](https://github.com/user-attachments/assets/9b055c07-9f94-41af-b151-d82645f5f40c)
 
-Main 페이지 화면입니다 
+- Main 페이지 화면입니다 
 
 ### ⓶ 상세 설명
 
 👉 검색기능
 
-##### 제목,작성자를 입력시, `<form>` 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
+-  제목,작성자를 입력시, `<form>` 형식을 통해 api 로 전송후, 이에 알맞은 데이터를 다시 받아 옵니다.
 
 ![Main_search](https://github.com/user-attachments/assets/d7eac07c-83bc-4cb0-a726-eeb0404bf1d2)
 
-##### 이러한 검색을 통해 해당 리스트를 받아 옵니다.
+- 이러한 검색을 통해 해당 리스트를 받아 옵니다.
 
 ![Main_list](https://github.com/user-attachments/assets/03effd88-716b-4dba-af9a-eb5630ac3012)
 
@@ -115,7 +115,7 @@ Main 페이지 화면입니다
 
 👉 페이징 처리 기능
 
-##### 한번에, 여러 데이터를 보여주기 어렵기 때문에, 보여줄 데이터의 갯수 를 설정하고, 페이징 처리를 통해 데이터를 여러번 나뉘어 보여 줍니다.
+- 한번에, 여러 데이터를 보여주기 어렵기 때문에, 보여줄 데이터의 갯수 를 설정하고, 페이징 처리를 통해 데이터를 여러번 나뉘어 보여 줍니다.
 
 ![Main_paging](https://github.com/user-attachments/assets/604e2ce2-4fcd-4555-8a8a-0e947b54d922)
 
@@ -127,9 +127,11 @@ Main 페이지 화면입니다
 
 ![Insert_main](https://github.com/user-attachments/assets/63a7736b-cc8a-407d-a312-9b350dab9734)
 
-게시글 등록 화면 입니다.
+- 게시글 등록 화면 입니다.
 
 ### ⓶ 상세 설명
+
+👉 게시글 등록 기능
 
 #### A01_BoardList.jsp 페이지 에서 "등록" 버튼 클릭시, 해당 페이지로 이동합니다. 
 
