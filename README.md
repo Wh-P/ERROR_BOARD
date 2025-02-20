@@ -55,14 +55,10 @@
           <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
           <br/><img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white">
           <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=for-the-badge&logo=Spring Boot&logoColor=white">
-         
-      ![jsp](https://github.com/user-attachments/assets/1cea91ab-fc50-41d6-ac7c-91d526afe3c2)
-
-      
-    </div>
+        </div>
 </div>
 </div>
-
+    ![jsp](https://github.com/user-attachments/assets/1cea91ab-fc50-41d6-ac7c-91d526afe3c2)
 <br/>
 
 ## 3. 역할 분담
