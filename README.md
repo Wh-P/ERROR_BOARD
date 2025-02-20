@@ -186,7 +186,7 @@
 
 - 정상적으로 답글이 등록 된 것을 확인 할  수 있습니다.
 
-![reply_main](https://github.com/user-attachments/assets/7c652529-bc9a-458a-a4e0-87aa6690fe2f)
+![reply_success](https://github.com/user-attachments/assets/68f3b86e-39e0-4604-8441-ea051e8b51ce)
 
 
 <br>
