@@ -58,7 +58,10 @@
         </div>
 </div>
 </div>
-    ![jsp](https://github.com/user-attachments/assets/1cea91ab-fc50-41d6-ac7c-91d526afe3c2)
+
+![jsp](https://github.com/user-attachments/assets/7a11dc15-87b6-42ba-8bb7-f8389102adce)
+
+    
 <br/>
 
 ## 3. 역할 분담
