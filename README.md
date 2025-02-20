@@ -119,6 +119,25 @@ Main 페이지 화면입니다
 
 ![Main_paging](https://github.com/user-attachments/assets/604e2ce2-4fcd-4555-8a8a-0e947b54d922)
 
+<br>
+
+### 5-2 게시글 등록(A01_BoardInsert.jsp)
+
+#### ⓵ 상세화면
+
+![Insert_main](https://github.com/user-attachments/assets/63a7736b-cc8a-407d-a312-9b350dab9734)
+
+게시글 등록 화면 입니다.
+
+### ⓶ 상세 설명
+
+##### A01_BoardList.jsp 페이지 에서 "등록" 버튼 클릭시, 해당 페이지로 이동합니다 
+-해당 페이지는 `<form>` 태그로 api 에 데이터를 전송합니다
+-다중 업로드 기능을 구현하기 위해  `<form>` 태그에 enctype=multipart/form-data 를 <br> `<input>` 태그에 multiple="multiple" 라는 속성을 적용하였습니다. 
+
+![BoardList_Main](https://github.com/user-attachments/assets/2a922328-eba7-4612-909e-2c37f753d0be)
+
+
 
 
 <br>
