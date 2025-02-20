@@ -142,6 +142,10 @@
 ![BoardList_Main](https://github.com/user-attachments/assets/2a922328-eba7-4612-909e-2c37f753d0be)
 
 
+- 저장할 정보를 작성 한뒤, "등록" 버튼을 누르면 서버로 전송이 되고, 리스트 돌아가기를 하면 A01_boardList.jsp 파일로 돌아갑니다.
+
+![submit](https://github.com/user-attachments/assets/f4d7be19-25b1-4b24-82dc-92c96d6f213f)
+
 
 
 <br>
